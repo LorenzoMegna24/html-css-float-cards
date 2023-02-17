@@ -25,19 +25,18 @@ h1{
   margin: 0 auto;
   margin-bottom: 30px;
 }
+.card-1, .card-2, .card-3{
+  float: left;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px gray;
+}
 .card-1, .card-2{
-  float: left;
-  width: calc(100% / 3 - 5%);
-  background-color: rgb(0, 0, 0);
   margin-right: 5%;
-  box-shadow: 0px 0px 10px gray;
-  }
+  width: calc(100% / 3 - 5%);
+}
 .card-3{
-  float: left;
   width: calc(100% / 3);
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0px 0px 10px gray;
-  }
+}
 .clearfix::after{
   content: '';
   clear: both;
